@@ -473,6 +473,15 @@ local playerBoxToggle = playerVisualsSec:AddToggle({
 	end
 })
 
+local playerBoxToggle = playerVisualsSec:AddToggle({
+	Name = "Mega knife(lags)",
+	Value = false,
+	Flag = 'playerBoxToggleFlag',
+	Callback = function(value)
+		print(value)
+	end
+})
+
 local playerNameTagToggle = playerVisualsSec:AddToggle({
 	Name = "NameTag",
 	Value = false,
