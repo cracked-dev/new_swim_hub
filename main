@@ -367,7 +367,6 @@ end
 --[ TABS
 local visualsTab = Window:CreateTab({Name = "Visuals"})
 local combatTab = Window:CreateTab({Name = "Combat"})
-local playerTab = Window:CreateTab({Name = "Player"})
 local worldTab = Window:CreateTab({Name = "World"})
 local screenTab = Window:CreateTab({Name = "Screen"})
 local miscTab = Window:CreateTab({Name = "Misc"})
@@ -389,7 +388,7 @@ local inventoryCheckerSec = miscTab:CreateSection({Name = "InventroyChecker", Si
 local skinChangerSec = miscTab:CreateSection({Name = "SkinChanger", Side = "Left"})
 local viewmodelSec = miscTab:CreateSection({Name = "Viewmodel", Side = "Right"})
 local helicopterSec = miscTab:CreateSection({Name = "AntiAim?", Side = "Right"})
-local tpWalkSec = playerTab:CreateSection({Name = "TpWalk", Side = "Left"})
+local tpWalkSec = combatTab:CreateSection({Name = "TpWalk", Side = "Left"})
 
 local aimSec = combatTab:CreateSection({Name = "Aim", Side = "Left"})
 local megaBulletsSec = combatTab:CreateSection({Name = "MegaBullets", Side = "Right"})
