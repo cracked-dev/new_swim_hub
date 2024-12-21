@@ -19,7 +19,7 @@ local uis = game:GetService("UserInputService")
 local mainFolder = cg:FindFirstChild("BBCFolder") or Instance.new("Folder", cg); mainFolder.Name = "BBCFolder"
 local sg = mainFolder:FindFirstChild("BBCsc") or Instance.new("ScreenGui", mainFolder); sg.Name = "BBCsc"; sg.IgnoreGuiInset = true ;sg.ResetOnSpawn = false
 local loopsEnabled = true
-local defaultColor = Color3.fromRGB(255,255,255)
+local defaultColor = Color3.fromRGB(50, 205, 50)
 local realAmmoTypes = rp:FindFirstChild("realAmmoTypes") or rp:FindFirstChild("AmmoTypes") and rp:FindFirstChild("AmmoTypes"):Clone(); if realAmmoTypes then realAmmoTypes.Name = "realAmmoTypes" end
 local fovCircle
 --]
